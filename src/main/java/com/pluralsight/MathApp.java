@@ -48,6 +48,6 @@ public class MathApp {
         int countSeconds = countMinutes * 60;
         int countMilliseconds = countSeconds * 1000;
 
-        System.out.println("8. The number of minutes in " + countDays + " hours is " + countMinutes + " and the number of milliseconds is " + countMilliseconds);
+        System.out.println("8. The number of minutes in " + countDays + " days is " + countMinutes + " and the number of milliseconds is " + countMilliseconds);
     }
 }
