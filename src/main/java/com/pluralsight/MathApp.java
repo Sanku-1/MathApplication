@@ -15,5 +15,13 @@ public class MathApp {
         float lowestPrice;
         lowestPrice = Math.min(carPrice, truckPrice);
         System.out.println("The lowest price is: " + lowestPrice);
+
+        //Question 3
+        float radiusCircle = 7.25;
+        float circleArea = (float) (Math.pow(radiusCircle, 2) * Math.PI);
+        System.out.println("The circle area is: " + circleArea);
+
+        //Question 4
+
     }
 }
