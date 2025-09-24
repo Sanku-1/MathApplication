@@ -37,5 +37,17 @@ public class MathApp {
         float absValueVariableTwo = (float) Math.abs(variableTwo);
         System.out.println("The absolute value of " + variableTwo + " is: " + absValueVariableTwo);
 
+        //Question 7
+        double randomNumber = Math.random();
+        System.out.println("The random number is: " + randomNumber);
+
+        //Question 8
+        byte countDays = 24;
+        int countHours = countDays * 24;
+        int countMinutes = countHours * 60;
+        int countSeconds = countMinutes * 60;
+        int countMilliseconds = countSeconds * 1000;
+
+        System.out.println("The number of minutes in " + countDays + " hours is " + countMinutes + " and the number of milliseconds is " + countMilliseconds);
     }
 }
